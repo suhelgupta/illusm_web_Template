@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+         /* CSS Reset  */
+   
+    /* #FFFFFF */
+    /* #F6F6F6 */
+    </style>
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Illumes</title>
+        <link rel="shortcut icon" href="./img/favicon.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://kit-pro.fontawesome.com/releases/v5.15.3/css/pro.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        
+    </head>
+    <body>
+        <header class="navbar navbar-expand-lg navbar-light bg-light ">
+            <div class="container-fluid ">
+              <a class="navbar-brand" href="#"><img class="nav-image-logo" src="../assets/pic/logo.png" alt="logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <div class="input-group">
+                    <button class="btn btn-btn-light dropdown-toggle nav-btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">All</button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">lorem</a></li>
+                      <li><a class="dropdown-item" href="#">lorem</a></li>
+                      <li><a class="dropdown-item" href="#">lorem</a></li>
+                    </ul>
+                    <input type="text" class="form-control nav-input" aria-label="Text input with dropdown button">
+                  </div>
+                </ul>
+                <div class="ml-auto pe-5">
+                    <a href="" class="icons"><i class="fas fa-shopping-cart p-2 border-end border-dark"></i></a>
+                    <a href="" class="icons"><i class="far fa-bell p-2 border-end border-dark"></i></a>
+                    <span>Michel Chalk</span>
+                </div>
+              </div>
+            </div>
+        </header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+            <div class="container-fluid  second-nav">
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-bold">
+                    <li class="nav-item">
+                      <a class="nav-link " aria-current="page" href="#"><i class="fas fa-chart-pie mx-2"></i><span>DASHBORD</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><i class="fas fa-search mx-2"></i><span>DIAGNOSTICS</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link " href="#"><i class="fas fa-box mx-2"></i><span>DESIGN ILT/VILT</span></a>
+                    </li>
+                    <li class="nav-item ">
+                      <a class="nav-link active" href="#"><i class="fas fa-truck mx-2"></i><span>DELIVERY</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link " href="#"><i class="fas fa-circle-notch mx-2"></i><span>ASSESSOR</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link " href="#"><i class="fas fa-file-certificate mx-2"></i><span>MY CERTIFICATIES</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link " href="#"><i class="fas fa-file-spreadsheet mx-2"></i><span>POLICY</span></a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+        <div class="sticky">
+            <i class="fas fa-trophy"> L1 Diagnostics, L2 Diagnostics, &nbsp; <a href="https://more.com" style="text-decoration: none;"> More  &nbsp; </a></i>
+            <i class="fas fa-briefcase"> Interview,FGD,Survey &nbsp; </i>
+            <p class="float-right">You have completed 12 for program as a Skill &nbsp; <a href="#">Certification Criteria</a></p>
+        </div>
+        <hr>
+      <div class="col_md-12 dis_flex">
+      <div class="col-md-3 mar_10 ">
+        <div class="card p-0">
+          <div class="card-header text-center"><h5>Adherance Policy</h5></div>
+          <div class="card-body pad_15">
+            <div class="middata"> 5000 <br> total</div>
+            <ngx-charts-advanced-pie-chart
+              [view]="[700,200]"
+                [scheme]="colorScheme"
+                [results]="single"
+                [gradient]="gradient"
+                [legend]="showLegend" [doughnut]="isDoughnut"
+              >
+    </ngx-charts-advanced-pie-chart>
+</div>
+<div class="card-footer row">
+<div class="col ">
+12 HRS
+<br>
+spent
+</div>
+<div class="col">
+12 HRS
+<br>
+Remaning
+</div>
+</div>
+        </div>
+        </div>
+          <div class="col-md-3 mar_10 ">
+            <div class="card p-0">
+              <div class="card-header text-center"><h5>Payout</h5></div>
+              <div class="card-body pad_15">
+                <div class="middata"> 12 <br> total</div>
+              <ngx-charts-advanced-pie-chart
+              [view]="[700,200]"
+                [scheme]="colorScheme"
+                [results]="single"
+                [gradient]="gradient"
+                [legend]="showLegend" [doughnut]="isDoughnut"
+              >
+    </ngx-charts-advanced-pie-chart>
+    </div>
+    <div class="card-footer row">
+    <div class="col ">
+      INR 2000
+    <br>
+    Received
+    </div>
+    <div class="col">
+    INR 3000
+    <br>
+    Pending
+    </div>
+    </div>
+            </div>
+            </div>
+            <div class="col-md-3 mar_10 ">
+              <div class="card p-0">
+                <div class="card-header text-center"><h5>BRD</h5></div>
+                <div class="card-body pad_15">
+                  <div class="middata"> 100 <br> Total</div>
+                <ngx-charts-advanced-pie-chart
+                [view]="[700,200]"
+                  [scheme]="colorScheme"
+                  [results]="single"
+                  [gradient]="gradient"
+                  [legend]="showLegend" [doughnut]="isDoughnut"
+                >
+      </ngx-charts-advanced-pie-chart>
+      </div>
+      <div class="card-footer row">
+      <div class="col ">
+        25
+        <br>
+        selected
+      </div>
+      <div class="col">
+        10
+        <br>
+        Completed
+      </div>
+      </div>
+              </div>
+              </div>
+              <div class="col-md-3 mar_10 ">
+                <div class="card p-0">
+                  <div class="card-header text-center"><h5>BATCHES</h5></div>
+                  <div class="card-body pad_15">
+                    <div class="middata"> 50 <br> Eligible</div>
+                  <ngx-charts-advanced-pie-chart
+                  [view]="[700,200]"
+                    [scheme]="colorScheme"
+                    [results]="single"
+                    [gradient]="gradient"
+                    [legend]="showLegend" [doughnut]="isDoughnut"
+                  >
+        </ngx-charts-advanced-pie-chart>
+        </div>
+        <div class="card-footer row">
+        <div class="col ">
+        50
+        <br>
+        ILT
+        </div>
+        <div class="col">
+        50
+        <br>
+        VLT
+        </div>
+        </div>
+                </div>
+                </div>
+
+      </div>
+    <div class="row table-margin">
+        <div class="column col-md-3">
+          <div class="card d-flex flex-row">
+              <div class="p-3">
+                <div class="count-icon-circle">
+                    <i class="fas fa-comment-alt" style="left: 17% !important;"></i>
+                </div>
+            </div>
+            <div>
+            <h3>
+                <span class="count">1,238</span>
+            </h3>
+            <b><span class="feedback">Average Feedback</span></b>
+        </div>
+          </div>
+        </div>
+        <div class="column col-md-3">
+          <div class="card d-flex flex-row">
+            <div class="p-3">
+                <div class="count-icon-circle">
+              <i class="fas fa-users" style="left: 17% !important;"></i>
+                </div>
+            </div>
+            <div class="width:50%">
+            <h3>
+                <span class="count">900</span>
+                </h3>
+                <div>
+            <b><span class="feedback">Participants</span></b>
+        </div>
+        </div>
+    </div>
+    </div>
+        <div class="column col-md-3">
+          <div class="card d-flex flex-row">
+            <div class="p-3">
+                <div class="count-icon-circle">
+              <i class="fas fa-comment-alt" style="left: 17% !important;"></i>
+                </div>
+            </div>
+            <div>
+            <h3>
+                <span class="count">4,723</span>
+                
+            </h3>
+            <div>
+            <b><span class="feedback">Program</span></b>
+            </div>
+        </div>
+        </div>
+      </div>
+      </div>
+      <div class="col-md-12 table-margin" style="display: flex;">
+      <div class="col-md-9 table-padding ">
+        <h4>Ongoing Tickets</h4>
+        <table class="table table-striped">
+        
+              <tr>
+                  <th>lorem</th>
+                  <th>lorem</th>
+                  <th>lorem</th>
+                  <th>lorem</th>
+                  <th>lorem</th>
+                  <th>lorem</th>
+                  <th>lorem</th>
+              </tr>
+              <tr>
+                  <td>lorem</td>
+                  <td>lorem</td>
+                  <td>lorem</td>
+                  <td>lorem</td>
+                  <td>lorem</td>
+                  <td>lorem</td>
+                  <td>lorem</td>
+              </tr>
+              <tr>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+            </tr>
+            <tr>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+            </tr>
+            <tr>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+            </tr>
+            <tr>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+            </tr>
+            <tr>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+            </tr>
+            <tr>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+            </tr>
+            <tr>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+            </tr>
+            <tr>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+            </tr>
+            <tr>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+            </tr>
+          </table>
+      </div>
+      <div class="column col-md-3">
+        <h4 style="padding-top: 15px;">Ongoing Batches</h4>
+        <div class="card d-flex flex-row mar_15">
+          <div class="p-3">
+              <div class="count-icon-circle1">
+         <img src="../assets/pic/laptop-symbol-azy.png" height="200%" alt="">
+              </div>
+          </div>
+          <div>
+          <h6>
+             <p>Lorem ipsum is smilply dummy text of the..... </p> 
+          </h6>
+          <div>
+          <p> 12 Mar 2020</p>
+          </div>
+      </div>
+      </div>
+      <div class="card d-flex flex-row mar_15">
+        <div class="p-3">
+            <div class="count-icon-circle1">
+       <img src="../assets/pic/laptop-symbol-azy.png" height="200%" alt="">
+            </div>
+        </div>
+        <div>
+        <h6>
+           <p>Lorem ipsum is smilply dummy text of the..... </p> 
+        </h6>
+        <div>
+        <p> 12 Mar 2020</p>
+        </div>
+    </div>
+    </div>
+    <div class="card d-flex flex-row mar_15">
+      <div class="p-3">
+          <div class="count-icon-circle1">
+     <img src="../assets/pic/laptop-symbol-azy.png" height="200%" alt="">
+          </div>
+      </div>
+      <div>
+      <h6>
+         <p>Lorem ipsum is smilply dummy text of the..... </p> 
+      </h6>
+      <div>
+      <p> 12 Mar 2020</p>
+      </div>
+  </div>
+  </div>
+    <div class="card d-flex flex-row mar_15">
+    <div class="p-3">
+        <div class="count-icon-circle1">
+   <img src="../assets/pic/laptop-symbol-azy.png" height="200%" alt="">
+        </div>
+    </div>
+    <div>
+    <h6>
+       <p>Lorem ipsum is smilply dummy text of the..... </p> 
+    </h6>
+    <div>
+    <p> 12 Mar 2020</p>
+    </div>
+</div>
+</div>
+    </div>
+    </div>
+   
